@@ -1,0 +1,49 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/010-FallbackFunction/fallback_function.sol": "Test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/010-FallbackFunction/fallback_function.sol": {
+			"keccak256": "0x48343cc6bcbaee78c10faf3f2f238ba9f4bcb1d2ff5b21f100c306ef056d50a3",
+			"urls": [
+				"bzz-raw://bb414c1f8981751bd84b3b76ed9e2c7a1c157787950367ff8f6f08d0181c918f",
+				"dweb:/ipfs/QmYUDVJKVBZ3P31ef462Z3QyEEjH2CHhP8FiWBqULahr1G"
+			]
+		}
+	},
+	"version": 1
+}
