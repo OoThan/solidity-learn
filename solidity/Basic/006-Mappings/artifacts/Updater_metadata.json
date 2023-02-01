@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updateBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/006-Mappings/mappings.sol": "Updater"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/006-Mappings/mappings.sol": {
+			"keccak256": "0x15533792d5e14ffdcec225228c0f7b26f80c240a8f54de6cc7643971c02ade7a",
+			"urls": [
+				"bzz-raw://a993aff0e4cc963d5b4cefb5441c67a6dae55fc3ae9bb39be252a1d02ef0881e",
+				"dweb:/ipfs/QmapbPH4yhsCNk8xjWPyyE83BmkGfdPAheRWKEgbr4CtW7"
+			]
+		}
+	},
+	"version": 1
+}
