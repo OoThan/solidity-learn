@@ -7,8 +7,16 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -24,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/Basic/001-Variables/state_variable.sol": "StateVariable"
+			"solidity/Basic/001-Variables/variable_scope.sol": "Caller"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -38,11 +46,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity/Basic/001-Variables/state_variable.sol": {
-			"keccak256": "0x693bd0f3915460034d65290443515adf461544a87cd2bab1e1e9b61e6a390760",
+		"solidity/Basic/001-Variables/variable_scope.sol": {
+			"keccak256": "0x2e447a763e9bc4b8540a0fc34a5a6c3161d941f856ee14ced00dc997d5863113",
 			"urls": [
-				"bzz-raw://ff6787e1ff4af8499764427697d877b017f1c21bfe95aa477cf9cba3f1377998",
-				"dweb:/ipfs/QmS31LtRUYkMafCxLc8wv1KYom2TeLvA2s2mPNPcw5wSp1"
+				"bzz-raw://14a397f102cfb81df34654f0502e6cc7e704a4ece5c3c89746729e02a8c08972",
+				"dweb:/ipfs/QmVQhrB3L7YBcNNkCH8Qi7SmmtM6mdgVJD1asaYhkN9Z7C"
 			]
 		}
 	},

@@ -1,7 +1,11 @@
-pragma solidity >=0.6.0 <0.9.0;
+pragma solidity >=0.4.16 <0.9.0;
 
 contract Counter {
     uint public count;
+
+    constructor() {
+        count = 1000;
+    }
 
     // Function to get the current count
     function get() public view returns (uint) {
