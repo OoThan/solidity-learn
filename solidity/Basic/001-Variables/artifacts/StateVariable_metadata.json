@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/001-Variables/state_variable.sol": "StateVariable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/001-Variables/state_variable.sol": {
+			"keccak256": "0x83f950af4e8411de22357c01e024b997f7b5aaf7e7b5fbbf8d68d449f4c393c8",
+			"urls": [
+				"bzz-raw://e260ad87c9deb9a9a88d40cb05a779a458b569a9b7c28ebf6285922e3d890efe",
+				"dweb:/ipfs/QmVNrzxNWZxPgBFGfLVGi4uk8nGgoyrmnhvSPb9tGEJ1ur"
+			]
+		}
+	},
+	"version": 1
+}
