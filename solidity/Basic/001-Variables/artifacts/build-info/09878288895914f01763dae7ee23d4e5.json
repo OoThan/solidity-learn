@@ -1,5 +1,5 @@
 {
-	"id": "da1799431c9f66d5dfe205ba4d81e49d",
+	"id": "09878288895914f01763dae7ee23d4e5",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.7",
 	"solcLongVersion": "0.8.7+commit.e28d00a7",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"solidity/Basic/001-Variables/state_variable.sol": {
-				"content": "pragma solidity >=0.4.0 <0.9.0;\ncontract StateVariable {\n    uint storedData;\n    constructor() public  {\n        storedData = 10;\n    }\n}\n"
+				"content": "pragma solidity >=0.4.16 <0.9.0;\ncontract StateVariable {\n    uint storedData;\n    constructor()  {\n        storedData = 10;\n    }\n}\n"
 			}
 		},
 		"settings": {
@@ -54,7 +54,7 @@
 						"version": 1
 					},
 					"evm": {
-						"assembly": "    /* \"solidity/Basic/001-Variables/state_variable.sol\":32:138  contract StateVariable {... */\n  mstore(0x40, 0x80)\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":82:136  constructor() public  {... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":127:129  10 */\n  0x0a\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":114:124  storedData */\n  0x00\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":114:129  storedData = 10 */\n  dup2\n  swap1\n  sstore\n  pop\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":32:138  contract StateVariable {... */\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"solidity/Basic/001-Variables/state_variable.sol\":32:138  contract StateVariable {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220604fa95bb037aabde3b0e9b5c4caa530b463f908b54709cba28bb5e27fe8953f64736f6c63430008070033\n}\n",
+						"assembly": "    /* \"solidity/Basic/001-Variables/state_variable.sol\":33:132  contract StateVariable {... */\n  mstore(0x40, 0x80)\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":83:130  constructor()  {... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":121:123  10 */\n  0x0a\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":108:118  storedData */\n  0x00\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":108:123  storedData = 10 */\n  dup2\n  swap1\n  sstore\n  pop\n    /* \"solidity/Basic/001-Variables/state_variable.sol\":33:132  contract StateVariable {... */\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"solidity/Basic/001-Variables/state_variable.sol\":33:132  contract StateVariable {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa26469706673582212209ef243707acd0c654a7f02d88a8a3ffeeb1b0c98495c2d218821b1d77393ba9d64736f6c63430008070033\n}\n",
 						"bytecode": {
 							"functionDebugData": {
 								"@_11": {
@@ -66,18 +66,18 @@
 							},
 							"generatedSources": [],
 							"linkReferences": {},
-							"object": "6080604052348015600f57600080fd5b50600a600081905550603f8060256000396000f3fe6080604052600080fdfea2646970667358221220604fa95bb037aabde3b0e9b5c4caa530b463f908b54709cba28bb5e27fe8953f64736f6c63430008070033",
-							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xA PUSH1 0x0 DUP2 SWAP1 SSTORE POP PUSH1 0x3F DUP1 PUSH1 0x25 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH1 0x4F 0xA9 JUMPDEST 0xB0 CALLDATACOPY 0xAA 0xBD 0xE3 0xB0 0xE9 0xB5 0xC4 0xCA 0xA5 ADDRESS 0xB4 PUSH4 0xF908B547 MULMOD 0xCB LOG2 DUP12 0xB5 0xE2 PUSH32 0xE8953F64736F6C63430008070033000000000000000000000000000000000000 ",
-							"sourceMap": "32:106:0:-:0;;;82:54;;;;;;;;;;127:2;114:10;:15;;;;32:106;;;;;;"
+							"object": "6080604052348015600f57600080fd5b50600a600081905550603f8060256000396000f3fe6080604052600080fdfea26469706673582212209ef243707acd0c654a7f02d88a8a3ffeeb1b0c98495c2d218821b1d77393ba9d64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xA PUSH1 0x0 DUP2 SWAP1 SSTORE POP PUSH1 0x3F DUP1 PUSH1 0x25 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP15 CALLCODE NUMBER PUSH17 0x7ACD0C654A7F02D88A8A3FFEEB1B0C9849 0x5C 0x2D 0x21 DUP9 0x21 0xB1 0xD7 PUSH20 0x93BA9D64736F6C63430008070033000000000000 ",
+							"sourceMap": "33:99:0:-:0;;;83:47;;;;;;;;;;121:2;108:10;:15;;;;33:99;;;;;;"
 						},
 						"deployedBytecode": {
 							"functionDebugData": {},
 							"generatedSources": [],
 							"immutableReferences": {},
 							"linkReferences": {},
-							"object": "6080604052600080fdfea2646970667358221220604fa95bb037aabde3b0e9b5c4caa530b463f908b54709cba28bb5e27fe8953f64736f6c63430008070033",
-							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH1 0x4F 0xA9 JUMPDEST 0xB0 CALLDATACOPY 0xAA 0xBD 0xE3 0xB0 0xE9 0xB5 0xC4 0xCA 0xA5 ADDRESS 0xB4 PUSH4 0xF908B547 MULMOD 0xCB LOG2 DUP12 0xB5 0xE2 PUSH32 0xE8953F64736F6C63430008070033000000000000000000000000000000000000 ",
-							"sourceMap": "32:106:0:-:0;;;;;"
+							"object": "6080604052600080fdfea26469706673582212209ef243707acd0c654a7f02d88a8a3ffeeb1b0c98495c2d218821b1d77393ba9d64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP15 CALLCODE NUMBER PUSH17 0x7ACD0C654A7F02D88A8A3FFEEB1B0C9849 0x5C 0x2D 0x21 DUP9 0x21 0xB1 0xD7 PUSH20 0x93BA9D64736F6C63430008070033000000000000 ",
+							"sourceMap": "33:99:0:-:0;;;;;"
 						},
 						"gasEstimates": {
 							"creation": {
@@ -89,219 +89,219 @@
 						"legacyAssembly": {
 							".code": [
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "PUSH",
 									"source": 0,
 									"value": "80"
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "PUSH",
 									"source": 0,
 									"value": "40"
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "MSTORE",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "CALLVALUE",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "DUP1",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "ISZERO",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "PUSH [tag]",
 									"source": 0,
 									"value": "1"
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "JUMPI",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "PUSH",
 									"source": 0,
 									"value": "0"
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "DUP1",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "REVERT",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "tag",
 									"source": 0,
 									"value": "1"
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "JUMPDEST",
 									"source": 0
 								},
 								{
-									"begin": 82,
-									"end": 136,
+									"begin": 83,
+									"end": 130,
 									"name": "POP",
 									"source": 0
 								},
 								{
-									"begin": 127,
-									"end": 129,
+									"begin": 121,
+									"end": 123,
 									"name": "PUSH",
 									"source": 0,
 									"value": "A"
 								},
 								{
-									"begin": 114,
-									"end": 124,
+									"begin": 108,
+									"end": 118,
 									"name": "PUSH",
 									"source": 0,
 									"value": "0"
 								},
 								{
-									"begin": 114,
-									"end": 129,
+									"begin": 108,
+									"end": 123,
 									"name": "DUP2",
 									"source": 0
 								},
 								{
-									"begin": 114,
-									"end": 129,
+									"begin": 108,
+									"end": 123,
 									"name": "SWAP1",
 									"source": 0
 								},
 								{
-									"begin": 114,
-									"end": 129,
+									"begin": 108,
+									"end": 123,
 									"name": "SSTORE",
 									"source": 0
 								},
 								{
-									"begin": 114,
-									"end": 129,
+									"begin": 108,
+									"end": 123,
 									"name": "POP",
 									"source": 0
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "PUSH #[$]",
 									"source": 0,
 									"value": "0000000000000000000000000000000000000000000000000000000000000000"
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "DUP1",
 									"source": 0
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "PUSH [$]",
 									"source": 0,
 									"value": "0000000000000000000000000000000000000000000000000000000000000000"
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "PUSH",
 									"source": 0,
 									"value": "0"
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "CODECOPY",
 									"source": 0
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "PUSH",
 									"source": 0,
 									"value": "0"
 								},
 								{
-									"begin": 32,
-									"end": 138,
+									"begin": 33,
+									"end": 132,
 									"name": "RETURN",
 									"source": 0
 								}
 							],
 							".data": {
 								"0": {
-									".auxdata": "a2646970667358221220604fa95bb037aabde3b0e9b5c4caa530b463f908b54709cba28bb5e27fe8953f64736f6c63430008070033",
+									".auxdata": "a26469706673582212209ef243707acd0c654a7f02d88a8a3ffeeb1b0c98495c2d218821b1d77393ba9d64736f6c63430008070033",
 									".code": [
 										{
-											"begin": 32,
-											"end": 138,
+											"begin": 33,
+											"end": 132,
 											"name": "PUSH",
 											"source": 0,
 											"value": "80"
 										},
 										{
-											"begin": 32,
-											"end": 138,
+											"begin": 33,
+											"end": 132,
 											"name": "PUSH",
 											"source": 0,
 											"value": "40"
 										},
 										{
-											"begin": 32,
-											"end": 138,
+											"begin": 33,
+											"end": 132,
 											"name": "MSTORE",
 											"source": 0
 										},
 										{
-											"begin": 32,
-											"end": 138,
+											"begin": 33,
+											"end": 132,
 											"name": "PUSH",
 											"source": 0,
 											"value": "0"
 										},
 										{
-											"begin": 32,
-											"end": 138,
+											"begin": 33,
+											"end": 132,
 											"name": "DUP1",
 											"source": 0
 										},
 										{
-											"begin": 32,
-											"end": 138,
+											"begin": 33,
+											"end": 132,
 											"name": "REVERT",
 											"source": 0
 										}
@@ -311,7 +311,7 @@
 						},
 						"methodIdentifiers": {}
 					},
-					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"solidity/Basic/001-Variables/state_variable.sol\":\"StateVariable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"solidity/Basic/001-Variables/state_variable.sol\":{\"keccak256\":\"0x83f950af4e8411de22357c01e024b997f7b5aaf7e7b5fbbf8d68d449f4c393c8\",\"urls\":[\"bzz-raw://e260ad87c9deb9a9a88d40cb05a779a458b569a9b7c28ebf6285922e3d890efe\",\"dweb:/ipfs/QmVNrzxNWZxPgBFGfLVGi4uk8nGgoyrmnhvSPb9tGEJ1ur\"]}},\"version\":1}",
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"solidity/Basic/001-Variables/state_variable.sol\":\"StateVariable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"solidity/Basic/001-Variables/state_variable.sol\":{\"keccak256\":\"0x693bd0f3915460034d65290443515adf461544a87cd2bab1e1e9b61e6a390760\",\"urls\":[\"bzz-raw://ff6787e1ff4af8499764427697d877b017f1c21bfe95aa477cf9cba3f1377998\",\"dweb:/ipfs/QmS31LtRUYkMafCxLc8wv1KYom2TeLvA2s2mPNPcw5wSp1\"]}},\"version\":1}",
 					"storageLayout": {
 						"storage": [
 							{
@@ -352,19 +352,6 @@
 					"start": -1
 				},
 				"type": "Warning"
-			},
-			{
-				"component": "general",
-				"errorCode": "2462",
-				"formattedMessage": "Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n --> solidity/Basic/001-Variables/state_variable.sol:4:5:\n  |\n4 |     constructor() public  {\n  |     ^ (Relevant source part starts here and spans across multiple lines).\n\n",
-				"message": "Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.",
-				"severity": "warning",
-				"sourceLocation": {
-					"end": 136,
-					"file": "solidity/Basic/001-Variables/state_variable.sol",
-					"start": 82
-				},
-				"type": "Warning"
 			}
 		],
 		"sources": {
@@ -385,13 +372,13 @@
 								"solidity",
 								">=",
 								"0.4",
-								".0",
+								".16",
 								"<",
 								"0.9",
 								".0"
 							],
 							"nodeType": "PragmaDirective",
-							"src": "0:31:0"
+							"src": "0:32:0"
 						},
 						{
 							"abstract": false,
@@ -404,7 +391,7 @@
 								12
 							],
 							"name": "StateVariable",
-							"nameLocation": "41:13:0",
+							"nameLocation": "42:13:0",
 							"nodeType": "ContractDefinition",
 							"nodes": [
 								{
@@ -412,10 +399,10 @@
 									"id": 3,
 									"mutability": "mutable",
 									"name": "storedData",
-									"nameLocation": "66:10:0",
+									"nameLocation": "67:10:0",
 									"nodeType": "VariableDeclaration",
 									"scope": 12,
-									"src": "61:15:0",
+									"src": "62:15:0",
 									"stateVariable": true,
 									"storageLocation": "default",
 									"typeDescriptions": {
@@ -426,7 +413,7 @@
 										"id": 2,
 										"name": "uint",
 										"nodeType": "ElementaryTypeName",
-										"src": "61:4:0",
+										"src": "62:4:0",
 										"typeDescriptions": {
 											"typeIdentifier": "t_uint256",
 											"typeString": "uint256"
@@ -438,7 +425,7 @@
 									"body": {
 										"id": 10,
 										"nodeType": "Block",
-										"src": "104:32:0",
+										"src": "98:32:0",
 										"statements": [
 											{
 												"expression": {
@@ -453,7 +440,7 @@
 														"nodeType": "Identifier",
 														"overloadedDeclarations": [],
 														"referencedDeclaration": 3,
-														"src": "114:10:0",
+														"src": "108:10:0",
 														"typeDescriptions": {
 															"typeIdentifier": "t_uint256",
 															"typeString": "uint256"
@@ -470,14 +457,14 @@
 														"kind": "number",
 														"lValueRequested": false,
 														"nodeType": "Literal",
-														"src": "127:2:0",
+														"src": "121:2:0",
 														"typeDescriptions": {
 															"typeIdentifier": "t_rational_10_by_1",
 															"typeString": "int_const 10"
 														},
 														"value": "10"
 													},
-													"src": "114:15:0",
+													"src": "108:15:0",
 													"typeDescriptions": {
 														"typeIdentifier": "t_uint256",
 														"typeString": "uint256"
@@ -485,7 +472,7 @@
 												},
 												"id": 9,
 												"nodeType": "ExpressionStatement",
-												"src": "114:15:0"
+												"src": "108:15:0"
 											}
 										]
 									},
@@ -500,27 +487,27 @@
 										"id": 4,
 										"nodeType": "ParameterList",
 										"parameters": [],
-										"src": "93:2:0"
+										"src": "94:2:0"
 									},
 									"returnParameters": {
 										"id": 5,
 										"nodeType": "ParameterList",
 										"parameters": [],
-										"src": "104:0:0"
+										"src": "98:0:0"
 									},
 									"scope": 12,
-									"src": "82:54:0",
+									"src": "83:47:0",
 									"stateMutability": "nonpayable",
 									"virtual": false,
 									"visibility": "public"
 								}
 							],
 							"scope": 13,
-							"src": "32:106:0",
+							"src": "33:99:0",
 							"usedErrors": []
 						}
 					],
-					"src": "0:139:0"
+					"src": "0:133:0"
 				},
 				"id": 0
 			}
