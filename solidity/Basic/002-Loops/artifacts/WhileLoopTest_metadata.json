@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/002-Loops/while_loop.sol": "WhileLoopTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/002-Loops/while_loop.sol": {
+			"keccak256": "0x97f84bcc91942bee736c0381e510348cb758cf2b01e30731bc1380243380f3c2",
+			"urls": [
+				"bzz-raw://e0fda1b4616d042237dbd6b10bcc6648157e807c4c9b48d942c440c696985656",
+				"dweb:/ipfs/QmbW1bp9N3AM6gzPnBunV1mxbcHpts8R9P3mu4GVp9P15e"
+			]
+		}
+	},
+	"version": 1
+}
