@@ -39,10 +39,10 @@
 	},
 	"sources": {
 		"solidity/Basic/001-Variables/state_variable.sol": {
-			"keccak256": "0x83f950af4e8411de22357c01e024b997f7b5aaf7e7b5fbbf8d68d449f4c393c8",
+			"keccak256": "0x693bd0f3915460034d65290443515adf461544a87cd2bab1e1e9b61e6a390760",
 			"urls": [
-				"bzz-raw://e260ad87c9deb9a9a88d40cb05a779a458b569a9b7c28ebf6285922e3d890efe",
-				"dweb:/ipfs/QmVNrzxNWZxPgBFGfLVGi4uk8nGgoyrmnhvSPb9tGEJ1ur"
+				"bzz-raw://ff6787e1ff4af8499764427697d877b017f1c21bfe95aa477cf9cba3f1377998",
+				"dweb:/ipfs/QmS31LtRUYkMafCxLc8wv1KYom2TeLvA2s2mPNPcw5wSp1"
 			]
 		}
 	},
