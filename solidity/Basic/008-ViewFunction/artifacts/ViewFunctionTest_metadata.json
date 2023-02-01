@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/008-ViewFunction/view_function.sol": "ViewFunctionTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/008-ViewFunction/view_function.sol": {
+			"keccak256": "0x4aea572ccac54fd80cc7e2de16cbc5d6f7825ede1526d25f67d4168319bb2b64",
+			"urls": [
+				"bzz-raw://39b9aff0a0e2a9b1387bc779faaa84f40345fb30694fef7f3ea69f791781cb61",
+				"dweb:/ipfs/QmfB7a6ao8KQKPXZBS9ezMC2xu9ZDTaN71K2PKrg7zps8o"
+			]
+		}
+	},
+	"version": 1
+}
