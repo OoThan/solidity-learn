@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/007-FunctionModifiers/function_modifiers.sol": "Owner"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/007-FunctionModifiers/function_modifiers.sol": {
+			"keccak256": "0x1ac7935b0c1bbf1a190d93b33a340b466f98633ba796241a66e76e12165a3ab7",
+			"urls": [
+				"bzz-raw://27ab31276c455686df4e64cf6a176505ab814a39e66bb1d41df777aeae14a830",
+				"dweb:/ipfs/QmfGqvUa6NhCyK6amisWFnrCE7wrN8w32TPkG1xnw9oqWe"
+			]
+		}
+	},
+	"version": 1
+}
