@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/009-PureFunction/pure_function.sol": "PureFunctionTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/009-PureFunction/pure_function.sol": {
+			"keccak256": "0xb571145d803144712168abc2e483e878acb39ba7508caa73eac0e53ac7203e77",
+			"urls": [
+				"bzz-raw://e20e404b16ebc2f965bdbf1d0880bb382e356a1e22aff88e2dfd7e612a64d62a",
+				"dweb:/ipfs/QmRVzK2VoW6trkYPiTnxJHpV8u8qDBdRNNxtXeiR2bwLW3"
+			]
+		}
+	},
+	"version": 1
+}
