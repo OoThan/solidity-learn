@@ -52,10 +52,10 @@
 	},
 	"sources": {
 		"solidity/Basic/002-Loops/while_loop.sol": {
-			"keccak256": "0x97f84bcc91942bee736c0381e510348cb758cf2b01e30731bc1380243380f3c2",
+			"keccak256": "0xc25deb32e858aae490ed38f87faa7dbdbc93f60e606d03566fca8dc9f685dc3d",
 			"urls": [
-				"bzz-raw://e0fda1b4616d042237dbd6b10bcc6648157e807c4c9b48d942c440c696985656",
-				"dweb:/ipfs/QmbW1bp9N3AM6gzPnBunV1mxbcHpts8R9P3mu4GVp9P15e"
+				"bzz-raw://90093d63c91d0f2b64f5af2d1ef8e909c18bb0a89bd338314a45cd26aea8405f",
+				"dweb:/ipfs/QmR9ktYHdzMP3mhvj2vGbJaNpWmNMHpRyRyyqFBW4gjFck"
 			]
 		}
 	},

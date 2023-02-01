@@ -8,19 +8,19 @@ contract WhileLoopTest {
     }
 
     function getResult() public view returns (string memory) {
-        uint a = 10;
+        uint a = 2;
         uint b = 10;
         uint result = a + b;
         return integerToString(result);
     }
 
-    function integerToString(uint _i) internal pure returns (string memory) {
+    function integerToString(uint256 _i) internal pure returns (string memory) {
         if (_i == 0) {
             return "0";
         }
 
-        uint j = _i;
-        uint len;
+        uint256 j = _i;
+        uint256 len;
 
         while (j != 0) {
             len++;
@@ -28,10 +28,13 @@ contract WhileLoopTest {
         }
 
         bytes memory bstr = new bytes(len);
-        uint k = len - 1;
+        uint256 k = len;
+        j = _i;
       
-        while (_i != 0) { // while loop
-            bstr[k--] = byte(uint8(48 + _i % 10));
+        while (j != 0) { // while loop
+            uint8 temp = uint8(48 + _i % 10);
+            bytes1 b = bytes1(temp);
+            bstr[k--] = bytes1(uint8(48 + j % 10));
             _i /= 10;
         }
 
