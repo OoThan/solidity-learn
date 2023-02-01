@@ -1,0 +1,75 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50605080601d6000396000f3fe6080604052348015600f57600080fd5b50600160008190555000fea264697066735822122084b72484ba2717eae7d61f0158289f2fcf383e803b1da6e9be8983376c309d8864736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x50 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x0 DUP2 SWAP1 SSTORE POP STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP5 0xB7 0x24 DUP5 0xBA 0x27 OR 0xEA 0xE7 0xD6 0x1F ADD PC 0x28 SWAP16 0x2F 0xCF CODESIZE RETURNDATACOPY DUP1 EXTCODESIZE SAR 0xA6 0xE9 0xBE DUP10 DUP4 CALLDATACOPY PUSH13 0x309D8864736F6C634300080700 CALLER ",
+			"sourceMap": "34:295:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50600160008190555000fea264697066735822122084b72484ba2717eae7d61f0158289f2fcf383e803b1da6e9be8983376c309d8864736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x0 DUP2 SWAP1 SSTORE POP STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP5 0xB7 0x24 DUP5 0xBA 0x27 OR 0xEA 0xE7 0xD6 0x1F ADD PC 0x28 SWAP16 0x2F 0xCF CODESIZE RETURNDATACOPY DUP1 EXTCODESIZE SAR 0xA6 0xE9 0xBE DUP10 DUP4 CALLDATACOPY PUSH13 0x309D8864736F6C634300080700 CALLER ",
+			"sourceMap": "34:295:0:-:0;;;;;;;;;;;;;311:1;307;:5;;;;34:295"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "16000",
+				"executionCost": "69",
+				"totalCost": "16069"
+			},
+			"external": {
+				"": "22156"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"stateMutability": "nonpayable",
+			"type": "fallback"
+		}
+	]
+}

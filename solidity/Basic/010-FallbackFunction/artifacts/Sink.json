@@ -1,0 +1,75 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50604880601d6000396000f3fe6080604052348015600f57600080fd5b5000fea2646970667358221220594aa79bab3fdd25d093990c50bcc5c831420e6d81c28397a1b19004f7021bcc64736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x48 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MSIZE 0x4A 0xA7 SWAP12 0xAB EXTCODEHASH 0xDD 0x25 0xD0 SWAP4 SWAP10 0xC POP 0xBC 0xC5 0xC8 BALANCE TIMESTAMP 0xE PUSH14 0x81C28397A1B19004F7021BCC6473 PUSH16 0x6C634300080700330000000000000000 ",
+			"sourceMap": "122:44:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@_16": {
+					"entryPoint": null,
+					"id": 16,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5000fea2646970667358221220594aa79bab3fdd25d093990c50bcc5c831420e6d81c28397a1b19004f7021bcc64736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MSIZE 0x4A 0xA7 SWAP12 0xAB EXTCODEHASH 0xDD 0x25 0xD0 SWAP4 SWAP10 0xC POP 0xBC 0xC5 0xC8 BALANCE TIMESTAMP 0xE PUSH14 0x81C28397A1B19004F7021BCC6473 PUSH16 0x6C634300080700330000000000000000 ",
+			"sourceMap": "122:44:0:-:0;;;;;;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "14400",
+				"executionCost": "69",
+				"totalCost": "14469"
+			},
+			"external": {
+				"": "45"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"stateMutability": "nonpayable",
+			"type": "fallback"
+		}
+	]
+}
