@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callAddMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callMulMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/012-MathematiclFunction/mathematical_function.sol": "MathFuctionTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/012-MathematiclFunction/mathematical_function.sol": {
+			"keccak256": "0x6e316f09153321b8067f4be988e09288a6c9cb10b368444a689106910980f569",
+			"urls": [
+				"bzz-raw://80df8df97f69f106a37b2bc6d11d36dd9dc9392c02540e7d07d290fb28a87076",
+				"dweb:/ipfs/QmeBoHfz8VWxwkaU3L6BmWSrGZ7bGoGusxMATDcd6fdAh5"
+			]
+		}
+	},
+	"version": 1
+}
