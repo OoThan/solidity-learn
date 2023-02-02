@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callKeccak256",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "result",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Basic/013-CryptographicFunction/cryptographic_function.sol": "CryptographicFunctionTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Basic/013-CryptographicFunction/cryptographic_function.sol": {
+			"keccak256": "0x988644899e6450f5a28ba3b267da93d15a2c1e12800f22eaaa75366ad1aa6afe",
+			"urls": [
+				"bzz-raw://d9c464a11c4a8bd4ca0c55a18767a925e34c0ba6de687cca7de4766c782fd8d3",
+				"dweb:/ipfs/QmVVqpFiYHrM1DV7EWedSee7d9SyUTtWmFeayXm5RSsPTh"
+			]
+		}
+	},
+	"version": 1
+}
