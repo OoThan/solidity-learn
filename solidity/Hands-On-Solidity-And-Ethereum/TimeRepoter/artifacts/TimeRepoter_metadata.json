@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "TimeLog",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "reportTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/Hands-On-Solidity-And-Ethereum/TimeRepoter/time_repoter.sol": "TimeRepoter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/Hands-On-Solidity-And-Ethereum/TimeRepoter/time_repoter.sol": {
+			"keccak256": "0x3bc8281aad46bb1bd9eeaff6e8ef4185f94c22492c74da8af9d4652bd4cd0789",
+			"urls": [
+				"bzz-raw://8bf90daa988942377ba6b2cbf1a3dc023348f8dc3e3bb721aa5904112ff34c6b",
+				"dweb:/ipfs/QmbDbD323HoQGyijAkcirK6wAisBsb8cX77qZEVu1C2sqd"
+			]
+		}
+	},
+	"version": 1
+}
