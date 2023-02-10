@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/005-Constants/Constant.sol": "Constants"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/005-Constants/Constant.sol": {
+			"keccak256": "0xe7ca7a43e252de9f6171647cda07379d259f9d806ac53e1771ff6897e49ac7fc",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://ed31335141154acd1969be88b6cfedca9c28391be2bcc652d698d79b9f8ac678",
+				"dweb:/ipfs/QmZTnDbz9UveHGVbVUxE5L4ZECnkMZvHvtYQegY5uojLYP"
+			]
+		}
+	},
+	"version": 1
+}
