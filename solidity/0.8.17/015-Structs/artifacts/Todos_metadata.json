@@ -8,43 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_text",
-						"type": "string"
-					}
-				],
-				"name": "create",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "text",
-						"type": "string"
-					},
-					{
-						"internalType": "bool",
-						"name": "completed",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -65,37 +28,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "toggleCompleted",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_text",
-						"type": "string"
-					}
-				],
-				"name": "updateText",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -111,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/0.8.17/015-Structs/Structs.sol": "Todos"
+			"solidity/0.8.17/015-Structs/StructImport.sol": "Todos"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -125,12 +57,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity/0.8.17/015-Structs/Structs.sol": {
-			"keccak256": "0xb67806b52baba9501f1269a88f9f40f1543ae5b1d22bed9b61ff93b17de1d072",
+		"solidity/0.8.17/015-Structs/StructDeclaration.sol": {
+			"keccak256": "0x707481e2cab4328bceeec8130637531dc0ec3c3c7a1f32deceaa5c976827666d",
 			"license": "UNLICENSE",
 			"urls": [
-				"bzz-raw://c6d7f28e19cd0f92acd89efa44f9fc09e47bed18a8189665209832ce3b67ca80",
-				"dweb:/ipfs/QmUVBqjUzf6KbchzsNj3f7wuZeCFsEKEhnHxS16icf4aor"
+				"bzz-raw://e7235ffa54c6bf5c8fdc5be4df4a8bb11e5b10862bb2016fcaf4659830b85394",
+				"dweb:/ipfs/QmZktYCRBpWStPfLswBQFstjjXeqSAXLkMrS3AQuywniie"
+			]
+		},
+		"solidity/0.8.17/015-Structs/StructImport.sol": {
+			"keccak256": "0x163f2ffc3cb35e9d96e8557c6a0cb272ff38b16be3fd21cdeaa2cbcb97b313cc",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://0ebabd5252086d7b40d96ef2d613bd440f09ede25655240f219e2b1b7883119f",
+				"dweb:/ipfs/QmafTxtchY6f21CiwJRTKyZMkf8VtrE6CkGUPby4SHQrtH"
 			]
 		}
 	},
