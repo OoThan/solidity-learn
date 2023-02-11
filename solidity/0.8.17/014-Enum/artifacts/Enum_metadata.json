@@ -7,50 +7,10 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "cancel",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "enum Enum.Status",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "reset",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "enum Enum.Status",
-						"name": "_status",
-						"type": "uint8"
-					}
-				],
-				"name": "set",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "status",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Status",
+						"internalType": "enum Status",
 						"name": "",
 						"type": "uint8"
 					}
@@ -72,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/0.8.17/014-Enum/Enum.sol": "Enum"
+			"solidity/0.8.17/014-Enum/EnumImport.sol": "Enum"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -86,12 +46,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity/0.8.17/014-Enum/Enum.sol": {
-			"keccak256": "0x2f98cfa42529bf20e6c6c356b09343837e5cae080f14e02f693240686c4e9c46",
+		"solidity/0.8.17/014-Enum/EnumDeclaration.sol": {
+			"keccak256": "0xa5eea05c2451e58557417c9196c95d7eb8219debfc8c24c4f0593223885eea15",
 			"license": "UNLICENSE",
 			"urls": [
-				"bzz-raw://7e3a2a34558eb05601b59ea519ba5da8baf4278d03ab02cc8d5f0646df38776d",
-				"dweb:/ipfs/QmNf9AqJBjV2DLwCeumXiyHGSaBX1YR2jFQNhZbgUk5UTt"
+				"bzz-raw://030f1c3bfbb3db7c738ab10f8b259e4f45b6c809d6031b3e732f1e50a3306436",
+				"dweb:/ipfs/Qmbne58oS1sCg4havg3oQVp3zn9gSeHf49RNk5d2YG8GqX"
+			]
+		},
+		"solidity/0.8.17/014-Enum/EnumImport.sol": {
+			"keccak256": "0xaf4a0bd651381c5fb5935593a4f839fb9baaedba546d4ac3126ae7a040691f31",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://b0bec3521f0bef98152fba8ba6a5e6323a10d468a6f087d855e2af88dfd4ae4d",
+				"dweb:/ipfs/Qmbsmzqws8nj9pHLSwvPwZUkgojZZoDXv4cFSzPchmz5sS"
 			]
 		}
 	},
