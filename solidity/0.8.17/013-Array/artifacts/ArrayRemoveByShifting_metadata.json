@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/013-Array/ArrayRemoveByShifting.sol": "ArrayRemoveByShifting"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/013-Array/ArrayRemoveByShifting.sol": {
+			"keccak256": "0x7adf4fb124b6a92bb5c88260fc765cfe8ca6df3c9bccad78a5f5464b08026fff",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://605cfc7faf8520e30c7d99cbd8228d3beb3fafad9ed541641d50625cc57e8292",
+				"dweb:/ipfs/QmVw7SzATbjYmo8KEt6JE9FJKkVpQ8H9kCgEKqmhRc6Pe3"
+			]
+		}
+	},
+	"version": 1
+}
