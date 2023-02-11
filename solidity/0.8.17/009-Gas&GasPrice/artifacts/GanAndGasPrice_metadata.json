@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/009-Gas&GasPrice/GasAndGasPrice.sol": "GanAndGasPrice"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/009-Gas&GasPrice/GasAndGasPrice.sol": {
+			"keccak256": "0xcbd365270bc2f67ee15d241380a763e45faaf507787fbeae039731f64bdbb1bc",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://41bea1371187f64da0cf162a4b1426b85d57e695385ccec9309a4ece2e9dea4c",
+				"dweb:/ipfs/QmUTaVatNh6XUxxhpmUEtSfo9nUYjfmheD9pdxX8PvAVd2"
+			]
+		}
+	},
+	"version": 1
+}
