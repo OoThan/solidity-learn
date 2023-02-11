@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/011-ForAndWhileLoop/ForAndWhileLoop.sol": "ForAndWhileLoop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/011-ForAndWhileLoop/ForAndWhileLoop.sol": {
+			"keccak256": "0xe0787fbb8743c84f31ebfa0eebbc959468b23059095557338dd71457bae850f7",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://2c3d046b9917076a88c2dc830f15212547e4dc36eda18a57d13f090a259e06a4",
+				"dweb:/ipfs/QmeMFcGj6VHEhpUxwY9r5X45as3prRaqBETfnNkw2W73a8"
+			]
+		}
+	},
+	"version": 1
+}
