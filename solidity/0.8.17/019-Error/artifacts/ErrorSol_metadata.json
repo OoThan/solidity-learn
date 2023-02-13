@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/019-Error/Error.sol": "ErrorSol"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/019-Error/Error.sol": {
+			"keccak256": "0x5a71e1b7e9009b7e5fbed5fa7802d8b69924a586cb5880f69d2b852b10d115b5",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://e399d372a792fc14a71d7a417b794e950b4a415da4a8b8c5b506c0330ef8618c",
+				"dweb:/ipfs/QmS8sFLgtawR7rF9PzWRJzfdRnDeWQZGDxnpPLg7K1PT5g"
+			]
+		}
+	},
+	"version": 1
+}
