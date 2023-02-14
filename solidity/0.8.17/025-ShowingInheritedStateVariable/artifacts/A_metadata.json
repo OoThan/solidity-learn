@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/025-ShowingInheritedStateVariable/ShowInheritedStateVariable.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/025-ShowingInheritedStateVariable/ShowInheritedStateVariable.sol": {
+			"keccak256": "0x677acd4459b217bf2e998bb4a50200fc463df36b0f7b5f93b896199ea14ad050",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://6bb1f6d03c1de648b6febc098ffff3579145ba423683092e7e0e904bfdb25205",
+				"dweb:/ipfs/QmepEvqMvcvEr4xa8zXzYj2XkpXPGgzAysTfJXJtULJznT"
+			]
+		}
+	},
+	"version": 1
+}
