@@ -49,3 +49,19 @@ contract D is B, C {
         return super.foo();
     }
 }
+
+contract E is C, B {
+    // E.foo() 
+    // since B is the right most parent contract with function foo()
+    function foo() public pure override(C, B) returns (string memory) {
+        return super.foo();
+    }
+}
+
+// Inheritance must be orderd from "most be-like" to "most- deived"
+// swapping the order of A and B will throw a compilation error.
+contract F is A, B {
+    function foo() public pure override(A, B) returns (string memory) {
+        return super.foo();
+    }
+}
