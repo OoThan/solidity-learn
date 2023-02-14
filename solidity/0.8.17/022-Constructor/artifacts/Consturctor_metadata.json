@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/022-Constructor/Constructor.sol": "Consturctor"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/022-Constructor/Constructor.sol": {
+			"keccak256": "0xfeeb4a9f306eec291db8fa587806e000a969d959c78b860aa500f4c19c3304ef",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://ee42b78f94d008c872c811f3a9f829c93c9ccacc37418e5cd59f19733015dfae",
+				"dweb:/ipfs/QmNQBsfCuYxeMfbGY9dW3UmzGjEaknfqrudqfcRArCzkhc"
+			]
+		}
+	},
+	"version": 1
+}
