@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "messge",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/026-CallingParentContract/CallingParentContract.sol": "CallingParentContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/026-CallingParentContract/CallingParentContract.sol": {
+			"keccak256": "0x5b01ceab682dccfeae9d66dfb19e709135686de4311e06d51b9bee4ad07a85f3",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://dbe97e3b934b61d7e553d37e2e845142bd5a0a399a88a2c3d4d700db4437fa31",
+				"dweb:/ipfs/QmYhSbbATyRyTWSAdGKFHKZux2nw3cqvVFVdaKTJVYxfdG"
+			]
+		}
+	},
+	"version": 1
+}
