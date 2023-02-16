@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity/0.8.17/029-Payable/Payable.sol": "Payable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity/0.8.17/029-Payable/Payable.sol": {
+			"keccak256": "0xb5eb697f334bdd57d67270d98af4ac96cbf2e0a00ad086fcf18dfc2c06da723a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://974a379ac0da8aad0a1ee822582a75f67a004bdd3d2966846244a415580742d7",
+				"dweb:/ipfs/QmcbAjcqLkwqo6j7SBtbZ2BbY2ZYnFkWchkratJsjBirbz"
+			]
+		}
+	},
+	"version": 1
+}
