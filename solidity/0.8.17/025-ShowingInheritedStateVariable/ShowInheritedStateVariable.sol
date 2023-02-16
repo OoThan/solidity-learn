@@ -23,5 +23,8 @@ contract C is A {
         name = "Contract C";
     }
 
-    // C.game returns "Contract C"
+    // C.getName returns "Contract C"
+    function getNameFromC() public view returns (string memory) {
+        return name;
+    }
 }

@@ -6,29 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getName",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "messge",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/0.8.17/025-ShowingInheritedStateVariable/ShowInheritedStateVariable.sol": "A"
+			"solidity/0.8.17/026-CallingParentContract/CallingParentContract.sol": "C"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity/0.8.17/025-ShowingInheritedStateVariable/ShowInheritedStateVariable.sol": {
-			"keccak256": "0xf0cc45c66485374fb9ebfe80689b6ccc95341e1b95d9f7d3f02753437472a8fc",
+		"solidity/0.8.17/026-CallingParentContract/CallingParentContract.sol": {
+			"keccak256": "0x94bb4cbcdb637df35293e63f95276ea1e3bd1d61f277bd4bb27d9e995b903cd2",
 			"license": "UNLICENSE",
 			"urls": [
-				"bzz-raw://5e6d9b03199276b1862be9a067177285d57dc4ee088ce47cbbe9a8e12f9a940a",
-				"dweb:/ipfs/QmR3EQgYoB1T9ZvHZCLe2Qx2ATzm1M9zrHDWXAPBK4RU5q"
+				"bzz-raw://1aaff77c7f2596189fb02e9470bf05e7e979a917fe1fe37e1c13b2e0b5e131e6",
+				"dweb:/ipfs/Qme7TCczJFwYVwJCsFEpLn2nKWMQ19nKswrA6jeRdGCxUr"
 			]
 		}
 	},

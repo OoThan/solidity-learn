@@ -25,6 +25,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getNameFromC",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "name",
 				"outputs": [
 					{
@@ -65,11 +78,11 @@
 	},
 	"sources": {
 		"solidity/0.8.17/025-ShowingInheritedStateVariable/ShowInheritedStateVariable.sol": {
-			"keccak256": "0x677acd4459b217bf2e998bb4a50200fc463df36b0f7b5f93b896199ea14ad050",
+			"keccak256": "0xf0cc45c66485374fb9ebfe80689b6ccc95341e1b95d9f7d3f02753437472a8fc",
 			"license": "UNLICENSE",
 			"urls": [
-				"bzz-raw://6bb1f6d03c1de648b6febc098ffff3579145ba423683092e7e0e904bfdb25205",
-				"dweb:/ipfs/QmepEvqMvcvEr4xa8zXzYj2XkpXPGgzAysTfJXJtULJznT"
+				"bzz-raw://5e6d9b03199276b1862be9a067177285d57dc4ee088ce47cbbe9a8e12f9a940a",
+				"dweb:/ipfs/QmR3EQgYoB1T9ZvHZCLe2Qx2ATzm1M9zrHDWXAPBK4RU5q"
 			]
 		}
 	},
